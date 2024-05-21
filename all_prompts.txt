@@ -177,7 +177,7 @@ You are an agent trying to summarize the user's intent and provide a detailed su
 
 
 
-Low-uality Interactive Table Generation
+Low-quality Interactive Table Generation
 --------------------------------------------------------------------
 You are an agent trying to specify and understand the intent of the user's task goal. The user provides an initial task objective, and your task is to ask the user so that the user can better explore their intentions. For each generated query, you need to generate several candidate options. Each query must have options, which means you must end with options.
 Here are some examples:
@@ -217,7 +217,7 @@ User's task goal:
 
 
 
-Patterns Extraction
+Pattern Extraction
 --------------------------------------------------------------------
 Your job is to understand and elaborate the reasons why the AI agent's response to the user's intent understanding is good or bad. You will be given a user's initial task goal and the response of the AI agent attempting to understand the user's intent, which is an intent table containing three attributes: query for the user, optional list that the user can choose, and user's response. For a user's initial task goal, you are given a good intent table and a bad intent table. Your task is to first think about what is good in the good intent table and what is bad in the bad intent table, , and then summarize the good table patterns and the bad table patterns respectively.
 
@@ -288,7 +288,7 @@ Description:[The description of rubric 3]
 
 
 
-Favorable Rule
+Favorable Rules
 --------------------------------------------------------------------
 1. Title: Precise and Relevant Queries
 Description: Queries in the intent table should be directly aligned with the user's goal, asking for specific information that enhances the customization and relevance of the response.
@@ -325,7 +325,7 @@ Description: Queries and options should demonstrate an understanding of the task
 
 
 
-Unfavorable Rule
+Unfavorable Rules
 --------------------------------------------------------------------
 1. Title: Lack of User-Centered Depth
 Description: Intent tables that offer binary (Yes/No) options or overly narrow queries restrict comprehensive understanding of user preferences, missing the opportunity to delve deeply into their specific needs or intentions.
