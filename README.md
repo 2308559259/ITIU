@@ -16,7 +16,7 @@ The repo is for the implementation and evaluation of ITIU, a powerful framework 
 ## 🌟Contributions
 
 - To the best of our knowledge, we are among the first to comprehensively identify the main challenges of intention understanding in LLMs and propose a non-trivial solution.
-- We introduce the idea of non-linear thinking and propose a novel framework \uiu for intention understanding, comprising two innovative phases——table interacting design and specialized model training.
+- We introduce the idea of non-linear thinking and propose a novel framework ITIU for intention understanding, comprising two innovative phases——table interacting design and specialized model training.
 - Extensive experiments demonstrate the feasibility and effectiveness of our method in intention understanding and intention execution evaluations, particularly in terms of efficiency and accuracy, thereby promoting a new paradigm in intention understanding within LLMs.
 <div><a id="Citation"></a></div>
 
